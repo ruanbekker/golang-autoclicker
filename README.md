@@ -1,13 +1,15 @@
 # golang-autoclicker
-Auto Clicker in Golang to Simulate Mouse Clicks
+Auto Clicker for Desktop Applications in Golang to Simulate Mouse Clicks
 
 ## Robotgo Package
 
-Used [robotgo](https://github.com/go-vgo/robotgo) package for this
+Used [robotgo](https://github.com/go-vgo/robotgo) package for controlling the mouse events.
 
 ## Overview
 
-I wanted a tool to simulate clicks for a game called [Plarium Vikings]() to auto click and apply tasks within the game.
+My Dad wanted a way to simulate clicks for a game called [Plarium Vikings](https://plarium.com/en/strategy-games/vikings-war-of-clans/) to auto click and apply tasks within the game. There's a couple of tools out there that does that already, but you need to pay for them.
+
+So, because I'm on a Golang learning journey, I will write my own one in golang.
 
 ## 1. Getting the Mouse Coordinates
 
